@@ -93,3 +93,18 @@ The data layer is intentionally isolated in two functions (`saveToStorage` / `lo
 ## Purpose
 
 This project was built to practice structuring a real-world CRUD interface using only browser APIs — no frameworks, no dependencies. The goals were to keep the code readable and organized, implement proper data persistence, build a UI polished enough to show a client, and write JavaScript that is easy to extend as requirements grow.
+
+---
+
+## GitHub Pages Deployment
+
+This repo is a static HTML/CSS/JavaScript project and `index.html` lives in the repository root, so it is ready for GitHub Pages.
+
+### Deployment Steps
+
+1. Push changes to the `main` branch.
+2. In **Settings > Pages**, enable GitHub Pages for this repository.
+3. Set the source to **GitHub Actions** to use the included `.github/workflows/deploy-pages.yml` workflow.
+4. After the workflow finishes, the live site will be available at:
+
+`https://cnrakpinar1-jpg.github.io/client-intake-system/`
